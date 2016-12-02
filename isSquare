@@ -1,0 +1,13 @@
+public class Square {    
+    
+    public static boolean isSquare(int n) {
+        double squareDouble = Math.sqrt(n);
+        int squareInteger = (int) squareDouble;
+        if (Math.pow(squareDouble, 2) == Math.pow(squareInteger, 2)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+}
