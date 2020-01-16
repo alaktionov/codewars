@@ -1,3 +1,4 @@
+ //SOLUTION 1
  public static int digital_root(int n) {
   int sum = 0;
   while (n > 0) {
@@ -9,3 +10,11 @@
    }
    return sum;
  }
+
+//SOLUTION 2
+public static int digital_root(int n) {
+ while(n > 9){
+  n = n/10 + n % 10;
+ }
+ return(n);
+}
