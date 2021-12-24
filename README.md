@@ -1,2 +1,2 @@
-# codewars
-Completed Katas from codewars 
+# codewars and leetcode
+Completed algorithmic tasks from codewars and leetcode
