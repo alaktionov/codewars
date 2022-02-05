@@ -8,9 +8,9 @@ package leetcode;
 public class ValidPalindrome {
 
     public static boolean isPalindrome(String s) {
-        StringBuilder forward = new StringBuilder(s.replaceAll("[^A-Za-z0-9]", "").toLowerCase());
+        String forward = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
         StringBuilder backward = new StringBuilder(forward);
         backward.reverse();
-        return forward.toString().equals(backward.toString());
+        return forward.equals(backward.toString());
     }
 }
