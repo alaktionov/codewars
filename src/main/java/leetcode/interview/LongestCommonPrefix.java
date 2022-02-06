@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.interview;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.interview;
 
 /**
  * Java program to sort characters in a given String
