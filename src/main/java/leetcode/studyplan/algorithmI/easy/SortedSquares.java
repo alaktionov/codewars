@@ -1,4 +1,4 @@
-package leetcode.studyplan;
+package leetcode.studyplan.algorithmI.easy;
 
 import java.util.Arrays;
 

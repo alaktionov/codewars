@@ -4,9 +4,6 @@ public class IsLuckNumber {
 
     public static boolean isLucky(int number) {
         boolean[] array = new boolean[10];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = false;
-        }
 
         while (number > 0) {
             int digit = number % 10;
