@@ -1,4 +1,4 @@
-package leetcode.interview;
+package leetcode.interview.strings;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -1,4 +1,4 @@
-package leetcode.interview;
+package leetcode.interview.strings;
 
 /**
  * Implement a method that check if a given password is complex and secured (at least 6 characters length, 1 upper case, 1 lower case, 1 number)
